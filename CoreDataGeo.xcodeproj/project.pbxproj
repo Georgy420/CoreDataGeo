@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1890F9742B0B80D800BF17F2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1890F9732B0B80D800BF17F2 /* TableViewController.swift */; };
 		189DD3FE2B0B540100814E24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189DD3FD2B0B540100814E24 /* AppDelegate.swift */; };
 		189DD4002B0B540100814E24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189DD3FF2B0B540100814E24 /* SceneDelegate.swift */; };
-		189DD4022B0B540100814E24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189DD4012B0B540100814E24 /* ViewController.swift */; };
 		189DD4052B0B540100814E24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189DD4032B0B540100814E24 /* Main.storyboard */; };
 		189DD4082B0B540100814E24 /* CoreDataGeo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 189DD4062B0B540100814E24 /* CoreDataGeo.xcdatamodeld */; };
 		189DD40A2B0B540400814E24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189DD4092B0B540400814E24 /* Assets.xcassets */; };
@@ -17,10 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1890F9732B0B80D800BF17F2 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		189DD3FA2B0B540100814E24 /* CoreDataGeo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataGeo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		189DD3FD2B0B540100814E24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		189DD3FF2B0B540100814E24 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		189DD4012B0B540100814E24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		189DD4042B0B540100814E24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		189DD4072B0B540100814E24 /* CoreDataGeo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataGeo.xcdatamodel; sourceTree = "<group>"; };
 		189DD4092B0B540400814E24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,8 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				189DD3FD2B0B540100814E24 /* AppDelegate.swift */,
+				1890F9732B0B80D800BF17F2 /* TableViewController.swift */,
 				189DD3FF2B0B540100814E24 /* SceneDelegate.swift */,
-				189DD4012B0B540100814E24 /* ViewController.swift */,
 				189DD4032B0B540100814E24 /* Main.storyboard */,
 				189DD4092B0B540400814E24 /* Assets.xcassets */,
 				189DD40B2B0B540400814E24 /* LaunchScreen.storyboard */,
@@ -140,10 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				189DD4022B0B540100814E24 /* ViewController.swift in Sources */,
 				189DD3FE2B0B540100814E24 /* AppDelegate.swift in Sources */,
 				189DD4082B0B540100814E24 /* CoreDataGeo.xcdatamodeld in Sources */,
 				189DD4002B0B540100814E24 /* SceneDelegate.swift in Sources */,
+				1890F9742B0B80D800BF17F2 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +300,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = GeoDzh.CoreDataGeo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,7 +319,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = GeoDzh.CoreDataGeo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
